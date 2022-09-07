@@ -12,5 +12,5 @@ Combines lodash and lodash-es packages.
 ## <a name="installation"></a>Installation
 
 ```
-npm install --save-dev @skylib/lodash-commonjs-es
+npm install --save-dev lodash-commonjs-es
 ```
