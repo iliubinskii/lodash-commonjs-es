@@ -5,7 +5,6 @@
 [![Source rank](https://img.shields.io/librariesio/sourcerank/npm/lodash-commonjs-es)](https://libraries.io/npm/lodash-commonjs-es)
 [![Dependencies](https://img.shields.io/librariesio/release/npm/lodash-commonjs-es)](https://libraries.io/npm/lodash-commonjs-es)
 [![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/lodash-commonjs-es)](https://snyk.io/advisor/npm-package/lodash-commonjs-es)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ilyub_lodash-commonjs-es&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ilyub_lodash-commonjs-es)
 
 Combines lodash and lodash-es packages.
 
