@@ -9,6 +9,6 @@
 Combines lodash and lodash-es packages.
 
 Installation:
-```
-npm install --save-dev lodash-commonjs-es
+```sh
+npm install lodash-commonjs-es
 ```
