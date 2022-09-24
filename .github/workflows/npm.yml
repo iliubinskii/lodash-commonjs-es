@@ -1,0 +1,25 @@
+name: publish-to-npm
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+jobs:
+  main:
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Use checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Use node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Use npm
+        run: npm install
+      - name: Publish to npm
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}

@@ -9,11 +9,7 @@
       "@/*": [
         "src/*"
       ]
-    },
-    "typeRoots": [
-      "node_modules/@types",
-      "node_modules/types-fix"
-    ]
+    }
   },
   "exclude": [
     "cache",
