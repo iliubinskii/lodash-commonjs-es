@@ -42,6 +42,8 @@
     "husky:unset-hooks": "git config --unset core.hooksPath",
     "major-release": "php node_modules/real-config/bin/major-release.php",
     "markdownlint": "markdownlint *.md --ignore=CHANGELOG.md",
+    "ncu": "ncu --dep dev,peer,prod",
+    "ncu-upgrade": "ncu --dep dev,peer,prod --upgrade",
     "next-release": "php node_modules/real-config/bin/next-release.php",
     "npm:install": "npm install --no-audit --strict-peer-deps",
     "npm:install-clean": "npm install-clean --no-audit --strict-peer-deps",
@@ -49,9 +51,7 @@
     "npm:update": "npm update --no-audit --strict-peer-deps",
     "package-json-lint": "npmPkgJsonLint ./package.json",
     "prepare": "node node_modules/real-config/bin/prepare.js",
-    "update-package-check": "ncu --dep dev,peer,prod",
-    "update-package-force": "ncu --dep dev,peer,prod --upgrade",
-    "upgrade": "npm run update-package-force && npm run npm:install"
+    "upgrade": "npm run ncu-upgrade && npm run npm:install"
   },
   "dependencies": {
     "@types/lodash": "^4.14.185",
