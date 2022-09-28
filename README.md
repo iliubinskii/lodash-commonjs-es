@@ -45,22 +45,22 @@ Sample configuration to store CommonJS version in _dist_ folder and ES2015 versi
 ```jsonc
 // tsconfig-commonjs.json
 {
+  "extends": "./tsconfig",
   "compilerOptions": {
     "module": "CommonJS",
     "outDir": "dist"
-  },
-  "extends": "./tsconfig"
+  }
 }
 ```
 
 ```jsonc
 // tsconfig-es.json
 {
+  "extends": "./tsconfig",
   "compilerOptions": {
     "module": "ES2015",
     "outDir": "es"
-  },
-  "extends": "./tsconfig"
+  }
 }
 ```
 
