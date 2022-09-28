@@ -9,19 +9,62 @@
 
 - [Overview](#overview)
 - [Installation](#installation)
+- [HowTo: Distributing CommonJS + ES in one package](#howto)
 - [Related packages](#related-packages)
 
-## [](#overview)Overview
+## <a id="overview"></a>Overview
 
 Combines lodash and lodash-es packages.
 
-## [](#installation)Installation
+## <a id="installation"></a>Installation
 
 ```sh
 npm install lodash-commonjs-es
 ```
 
-## [](#related-packages)Related packages
+## <a id="howto"></a>HowTo: Distributing CommonJS + ES in one package
+
+Sample configuration to store CommonJS version in _dist_ folder and ES2015 version in _es_ folder:
+
+```jsonc
+// package.json
+{
+  "main": "dist/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "build": "npm run build-commonjs && npm run build-es",
+    "build-commonjs": "tsc --project tsconfig-commonjs.json",
+    "build-es": "tsc --project tsconfig-es.json"
+  },
+  "dependencies": {
+    "lodash-commonjs-es": "^1.0.0"
+  }
+}
+```
+
+```jsonc
+// tsconfig-commonjs.json
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "dist"
+  },
+  "extends": "./tsconfig"
+}
+```
+
+```jsonc
+// tsconfig-es.json
+{
+  "compilerOptions": {
+    "module": "ES2015",
+    "outDir": "es"
+  },
+  "extends": "./tsconfig"
+}
+```
+
+## <a id="related-packages"></a>Related packages
 
 - [eslint-plugin-misc](https://www.npmjs.com/package/eslint-plugin-misc) &mdash; ESLint plugin.
 - [quasar-extension](https://www.npmjs.com/package/quasar-extension) &mdash; Quasar extension.
