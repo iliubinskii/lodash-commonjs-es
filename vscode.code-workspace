@@ -14,6 +14,9 @@
     "[php]": {
       "editor.defaultFormatter": "junstyle.php-cs-fixer"
     },
+    "[scss]": {
+      "editor.formatOnSave": false
+    },
     "debug.javascript.codelens.npmScripts": "never",
     "editor.codeActionsOnSave": {
       "source.fixAll": true,
@@ -61,15 +64,15 @@
       "package-lock.json": true
     },
     "sort-json.settings.contextMenu": {
-      "setSortType": false,
       "sortJSON": false,
       "sortJSONDeepReverse": false,
-      "sortJSONReverse": false,
-      "toggleSortCaseSensitive": false
+      "sortJSONReverse": false
     },
     "sort-json.settings.ignoreArraysOnDeepSort": true,
     "sort-json.settings.isCaseSensitive": true,
     "sort-json.settings.orderOverride": [
+      "$schema",
+      "$id",
       "name",
       "description",
       "keywords",
@@ -77,9 +80,16 @@
       "minimum-stability",
       "prefer-stable",
       "version",
+      "private",
       "license",
       "homepage",
       "extends"
+    ],
+    "stylelint.validate": [
+      "css",
+      "less",
+      "postcss",
+      "scss"
     ],
     "typescript.suggestionActions.enabled": false,
     "typescript.tsdk": "node_modules\\typescript\\lib",
