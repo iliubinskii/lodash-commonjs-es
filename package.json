@@ -60,7 +60,7 @@
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
-    "real-config": "^1.16.0"
+    "real-config": "^1.18.0"
   },
   "engines": {
     "node": ">=16.0.0",
