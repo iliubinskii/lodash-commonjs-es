@@ -1,9 +1,10 @@
 # Lodash CommonJS + ES
 
-[![Stars](https://img.shields.io/github/stars/ilyub/lodash-commonjs-es)](https://github.com/ilyub/lodash-commonjs-es)
 [![Downloads](https://img.shields.io/npm/dm/lodash-commonjs-es)](https://www.npmjs.com/package/lodash-commonjs-es)
 [![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/lodash-commonjs-es)](https://snyk.io/advisor/npm-package/lodash-commonjs-es)
 [![Dependencies](https://img.shields.io/librariesio/release/npm/lodash-commonjs-es)](https://libraries.io/npm/lodash-commonjs-es)
+[![Stars](https://img.shields.io/github/stars/ilyub/lodash-commonjs-es)](https://github.com/ilyub/lodash-commonjs-es)
+[![Sponsors](https://img.shields.io/github/sponsors/ilyub)](https://github.com/sponsors/ilyub)
 
 ## Table of contents
 
