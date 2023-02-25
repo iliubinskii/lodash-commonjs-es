@@ -29,7 +29,7 @@
     "add-tags": "php node_modules/real-config/bin/add-tags.php",
     "browserslist": "browserslist",
     "build-changelog": "auto-changelog",
-    "clear-cache": "cf cache node_modules/.cache",
+    "clear-cache": "cf .cache node_modules/.cache",
     "commitlint": "commitlint --from=",
     "commitlint-next": "commitlint --config=commitlint-next.config.js --edit",
     "config-lint": "node node_modules/real-config/bin/config-lint.js",
