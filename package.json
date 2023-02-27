@@ -43,7 +43,7 @@
     "install-dev": "npm install --no-audit --strict-peer-deps",
     "install-dev-clean": "npm install-clean --no-audit --strict-peer-deps",
     "install-prod": "npm install --ignore-scripts --no-audit --omit=dev --strict-peer-deps",
-    "install-prod-clean": "npm install-clean --ignore-scripts --no-audit --omit=dev --strict-peer-dep",
+    "install-prod-clean": "npm install-clean --ignore-scripts --no-audit --omit=dev --strict-peer-deps",
     "major-release": "php node_modules/real-config/bin/major-release.php",
     "markdownlint": "markdownlint *.md --ignore=CHANGELOG.md",
     "ncu": "ncu --dep=dev,peer,prod",
@@ -53,7 +53,7 @@
     "prepare": "node node_modules/real-config/bin/prepare.js",
     "regenerate-lock-file": "npm install --no-audit --package-lock-only --strict-peer-deps",
     "update": "npm update --no-audit --strict-peer-deps",
-    "upgrade": "npm run ncu-upgrade && npm run npm:install"
+    "upgrade": "npm run ncu-upgrade && npm run install-dev"
   },
   "dependencies": {
     "@types/lodash": "^4.14.191",
@@ -62,7 +62,7 @@
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
-    "real-config": "^1.22.1"
+    "real-config": "^1.24.0"
   },
   "engines": {
     "node": ">=18.0.0",
