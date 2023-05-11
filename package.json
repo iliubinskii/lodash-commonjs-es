@@ -56,13 +56,13 @@
     "upgrade": "npm run ncu-upgrade && npm run install-dev"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.191",
-    "@types/lodash-es": "^4.17.6",
+    "@types/lodash": "^4.14.194",
+    "@types/lodash-es": "^4.17.7",
     "lodash": "^4.17.21",
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
-    "real-config": "^1.24.0"
+    "real-config": "^1.29.0"
   },
   "engines": {
     "node": ">=18.0.0",
