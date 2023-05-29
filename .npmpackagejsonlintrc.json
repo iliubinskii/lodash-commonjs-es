@@ -1,7 +1,8 @@
 {
   "extends": [
     "real-config/package-json-lint/recommended.json",
-    "real-config/package-json-lint/public.json"
+    "real-config/package-json-lint/public.json",
+    "real-config/package-json-lint/package.json"
   ],
   "rules": {
     "no-restricted-dependencies": "off"
