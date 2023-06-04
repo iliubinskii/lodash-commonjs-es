@@ -8,17 +8,17 @@
     "es",
     "lodash"
   ],
-  "homepage": "https://github.com/ilyub/lodash-commonjs-es",
+  "homepage": "https://github.com/iliubinskii/lodash-commonjs-es",
   "bugs": {
-    "url": "https://github.com/ilyub/lodash-commonjs-es/issues"
+    "url": "https://github.com/iliubinskii/lodash-commonjs-es/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ilyub/lodash-commonjs-es.git"
+    "url": "git://github.com/iliubinskii/lodash-commonjs-es.git"
   },
   "license": "ISC",
-  "author": "Ilia Liubinskii <admin.phpdev@gmail.com> (https://github.com/ilyub)",
-  "publisher": "ilyub",
+  "author": "Ilia Liubinskii <admin.phpdev@gmail.com> (https://github.com/iliubinskii)",
+  "publisher": "iliubinskii",
   "main": "dist/lodash.js",
   "module": "es/lodash.js",
   "files": [
