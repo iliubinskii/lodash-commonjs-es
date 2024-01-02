@@ -20,7 +20,24 @@
   "author": "Ilia Liubinskii <admin.phpdev@gmail.com> (https://github.com/iliubinskii)",
   "publisher": "iliubinskii",
   "main": "dist/lodash.js",
+  "types": "dist/lodash.d.ts",
   "module": "es/lodash.js",
+  "exports": {
+    ".": {
+      "module": {
+        "types": "./es/lodash.d.ts",
+        "default": "./es/lodash.js"
+      },
+      "import": {
+        "types": "./es/lodash.d.ts",
+        "default": "./es/lodash.js"
+      },
+      "default": {
+        "types": "./dist/lodash.d.ts",
+        "default": "./dist/lodash.js"
+      }
+    }
+  },
   "files": [
     "/dist",
     "/es"
