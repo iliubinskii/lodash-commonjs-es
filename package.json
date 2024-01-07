@@ -19,8 +19,25 @@
   "license": "ISC",
   "author": "Ilia Liubinskii <admin.phpdev@gmail.com> (https://github.com/iliubinskii)",
   "publisher": "iliubinskii",
+  "exports": {
+    ".": {
+      "module": {
+        "types": "./es/lodash.d.ts",
+        "default": "./es/lodash.js"
+      },
+      "default": {
+        "types": "./dist/lodash.d.ts",
+        "default": "./dist/lodash.js"
+      },
+      "import": {
+        "types": "./es/lodash.d.ts",
+        "default": "./es/lodash.js"
+      }
+    }
+  },
   "main": "dist/lodash.js",
   "module": "es/lodash.js",
+  "types": "dist/lodash.d.ts",
   "files": [
     "/dist",
     "/es"
