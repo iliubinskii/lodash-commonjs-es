@@ -114,6 +114,7 @@
       ],
       "package.json": [
         "name",
+        "displayName",
         "version",
         "private",
         "description",
@@ -130,6 +131,7 @@
         "types",
         "files",
         "scripts",
+        "jest",
         "dependencies",
         "devDependencies",
         "peerDependencies",
