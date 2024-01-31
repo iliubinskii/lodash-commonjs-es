@@ -43,31 +43,31 @@
     "/es"
   ],
   "scripts": {
-    "add-tags": "php node_modules/real-config/bin/add-tags.php",
+    "add-tags": "php node_modules/project-chore/bin/add-tags.php",
     "browsers-list": "browserslist",
     "build-changelog": "auto-changelog",
     "clear-cache": "cf .cache node_modules/.cache",
     "commitlint-all": "commitlint --from=",
     "commitlint-next": "commitlint --config=commitlint-next.config.js --edit",
-    "config-lint": "node node_modules/real-config/bin/config-lint.js",
-    "delete-tags": "php node_modules/real-config/bin/delete-tags.php",
-    "full-check": "php node_modules/real-config/bin/full-check.php",
+    "config-lint": "node node_modules/project-chore/bin/config-lint.js",
+    "delete-tags": "php node_modules/project-chore/bin/delete-tags.php",
+    "full-check": "php node_modules/project-chore/bin/full-check.php",
     "git-unix": "git config --replace-all core.ignorecase false",
     "git-unset-hooks": "git config --unset core.hooksPath",
     "git-windows": "git config --replace-all core.ignorecase true",
     "husky-commit-msg": "npm run commitlint-next",
-    "husky-pre-commit": "php node_modules/real-config/bin/pre-commit.php",
+    "husky-pre-commit": "php node_modules/project-chore/bin/pre-commit.php",
     "install-deps": "npm install --no-audit --strict-peer-deps",
     "install-deps-clean": "npm install-clean --no-audit --strict-peer-deps",
     "install-prod-deps": "npm install --ignore-scripts --no-audit --omit=dev --strict-peer-deps",
     "install-prod-deps-clean": "npm install-clean --ignore-scripts --no-audit --omit=dev --strict-peer-deps",
-    "major-release": "php node_modules/real-config/bin/major-release.php",
+    "major-release": "php node_modules/project-chore/bin/major-release.php",
     "markdown-lint": "markdownlint *.md --ignore=CHANGELOG.md",
     "ncu-check": "ncu --dep=dev,peer,prod",
     "ncu-upgrade": "ncu --dep=dev,peer,prod --upgrade && npm run install-deps",
-    "next-release": "php node_modules/real-config/bin/next-release.php",
+    "next-release": "php node_modules/project-chore/bin/next-release.php",
     "package-json-lint": "npmPkgJsonLint ./package.json",
-    "prepare": "node node_modules/real-config/bin/prepare.js",
+    "prepare": "node node_modules/project-chore/bin/prepare.js",
     "regenerate-lock-file": "npm install --no-audit --package-lock-only --strict-peer-deps",
     "update": "npm update --no-audit --strict-peer-deps"
   },
@@ -78,7 +78,7 @@
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
-    "real-config": "^1.46.0"
+    "project-chore": "^2.2.0"
   },
   "engines": {
     "node": ">=16.0.0",
