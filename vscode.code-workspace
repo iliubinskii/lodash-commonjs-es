@@ -5,14 +5,26 @@
     }
   ],
   "settings": {
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
     "[json]": {
       "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[jsonc]": {
       "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "[scss]": {
-      "editor.formatOnSave": false
+    "[typescript]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "[typescriptreact]": {
       "editor.defaultFormatter": "dbaeumer.vscode-eslint"
@@ -39,17 +51,6 @@
     "files.trimTrailingWhitespace": true,
     "foldOnOpen.targets": [
       "AllBlockComments"
-    ],
-    "intelephense.files.exclude": [
-      "**/.git/**",
-      "**/.svn/**",
-      "**/.hg/**",
-      "**/CVS/**",
-      "**/.DS_Store/**",
-      "**/bower_components/**",
-      "**/vendor/**/{Tests,tests}/**",
-      "**/.history/**",
-      "**/vendor/**/vendor/**"
     ],
     "javascript.suggestionActions.enabled": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
