@@ -72,13 +72,13 @@
     "update": "npm update --no-audit --strict-peer-deps"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.202",
+    "@types/lodash": "^4.17.1",
     "@types/lodash-es": "^4.17.12",
     "lodash": "^4.17.21",
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
-    "project-chore": "^2.2.0"
+    "project-chore": "^2.4.0"
   },
   "engines": {
     "node": ">=16.0.0",
