@@ -1,4 +1,8 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
+BRANCH_NAME=$(git symbolic-ref --short HEAD)
 
-npm run husky-pre-commit
+if [ "$BRANCH_NAME" = "master" ]; then
+  echo "Commits to $BRANCH_NAME branch are forbidden."
+  exit 1
+fi
+
+run-p format lint-markdown lint-no-fix type-check

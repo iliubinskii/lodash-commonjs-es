@@ -1,9 +1,5 @@
 # Lodash CommonJS + ES
 
-[![Stars](https://img.shields.io/github/stars/iliubinskii/lodash-commonjs-es)](https://github.com/iliubinskii/lodash-commonjs-es)
-[![Downloads](https://img.shields.io/npm/dm/lodash-commonjs-es)](https://www.npmjs.com/package/lodash-commonjs-es)
-[![Dependencies](https://img.shields.io/librariesio/release/npm/lodash-commonjs-es)](https://libraries.io/npm/lodash-commonjs-es)
-
 ## Table of contents
 
 - [Overview](#overview)
