@@ -16,7 +16,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "lib": ["ES2022"],
-    "module": "ES2022",
+    "module": "ESNext",
     "moduleResolution": "Node10",
     "newLine": "lf",
     "noEmit": false,
@@ -39,13 +39,14 @@
   },
   "exclude": ["es", "dist", "node_modules"],
   "include": [
-    ".eslintrc.base.cjs",
     ".eslintrc.cjs",
     ".prettierrc.mjs",
     "**/*.cjs",
+    "**/*.cjsx",
     "**/*.js",
     "**/*.jsx",
     "**/*.mjs",
+    "**/*.mjsx",
     "**/*.ts",
     "**/*.tsx"
   ]

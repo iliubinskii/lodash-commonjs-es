@@ -4,19 +4,21 @@
 
 - [Overview](#overview)
 - [Installation](#installation)
-- [HowTo: Distributing CommonJS + ES in one package](#howto)
+- [HowTo](#howto)
 
-## <a id="overview"></a>Overview
+## Overview
 
 Combines lodash and lodash-es packages.
 
-## <a id="installation"></a>Installation
+## Installation
 
 ```sh
 npm install lodash-commonjs-es
 ```
 
-## <a id="howto"></a>HowTo: Distributing CommonJS + ES in one package
+## HowTo
+
+### Distributing CommonJS + ES in one package
 
 Sample configuration to store CommonJS version in _dist_ folder and ES2020 version in _es_ folder:
 

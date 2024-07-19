@@ -6,7 +6,7 @@ const config = {
   env: {
     es2022: true
   },
-  extends: "./.eslintrc.base.cjs",
+  extends: "union",
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: { jsx: true },
@@ -21,7 +21,7 @@ const config = {
         cspell: {
           words:
             // @sorted
-            ["escompat", "packagejson", "sonarjs"]
+            ["cjsx", "mjsx", "packagejson"]
         }
       }
     ],
