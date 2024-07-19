@@ -40,7 +40,7 @@
     "/es"
   ],
   "scripts": {
-    "format": "prettier --write \"**/*.{css,html,json,less,postcss,scss}\"",
+    "format": "prettier --log-level warn --write \"**/*.{css,html,json,less,postcss,scss}\"",
     "install-deps": "npm install --no-audit --save-prod --strict-peer-deps",
     "install-deps-clean": "npm install-clean --no-audit --save-prod --strict-peer-deps",
     "install-dev-deps": "npm install --no-audit --save-dev --strict-peer-deps",
@@ -131,6 +131,7 @@
     "npm-run-all": "^4",
     "postcss-html": "^1",
     "prettier": "^3",
+    "prettier-plugin-packagejson": "^2",
     "prettier-plugin-sort-json": "^4",
     "strip-ansi-cli": "^4",
     "ts-jest": "^29",
