@@ -69,7 +69,7 @@
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
-    "eslint-config-union": "^0.3.0",
+    "eslint-config-union": "^1.1.0",
     "typescript": "^5"
   },
   "engines": {
