@@ -57,6 +57,7 @@
     "preversion:fix": "run-p format lint-markdown",
     "preversion:install": "npm run install-deps",
     "preversion:lint": "run-p lint-no-fix type-check",
+    "push-tags": "cross-env GIT_SSH_COMMAND=\"ssh -i ../.ssh/id_rsa\" git push --tags",
     "type-check": "tsc --incremental false --noEmit",
     "update": "npm update --no-audit --strict-peer-deps",
     "preversion": "run-s preversion:install preversion:fix preversion:lint preversion:add"
