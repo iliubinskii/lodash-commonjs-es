@@ -20,7 +20,7 @@ npm install lodash-commonjs-es
 
 ### Distributing CommonJS + ES in one package
 
-Sample configuration to store CommonJS version in _dist_ folder and ES2020 version in _es_ folder:
+Sample configuration to store CommonJS version in _dist_ folder and ES2015 version in _es_ folder:
 
 ```jsonc
 // package.json
@@ -54,7 +54,7 @@ Sample configuration to store CommonJS version in _dist_ folder and ES2020 versi
 {
   "extends": "./tsconfig",
   "compilerOptions": {
-    "module": "ES2020",
+    "module": "ES2015",
     "outDir": "es"
   }
 }
